@@ -31,12 +31,14 @@ const App = () => {
   // })
   // initialErrors={validationSchema.isValidSync(initialData)}
 
-  const hasReviewed = true;
+  const hasReviewed = false;
   const hasTouched = {
     firstName: hasReviewed,
     lastName: hasReviewed,
     email: hasReviewed,
   }
+
+  
   return (
     <div>
       <h1>Signup</h1>
